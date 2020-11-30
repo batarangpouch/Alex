@@ -1,0 +1,124 @@
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+}
+
+body{
+    background-color : deepskyblue;
+}
+
+name {
+    background-color: mediumpurple;
+    box-shadow: black -10px 15px;
+}
+
+
+
+li {
+    background-color: rgba(0,0,0,.25);
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+li a {
+    background-color: white;
+    color: mediumpurple;
+    padding: 20px;
+    margin: 25px;
+    text-decoration: none;
+    display: list-item;
+    border-radius: 20px;
+    text-align: center;
+    list-style-type: none;
+    background-position: center;
+    
+    
+}
+
+
+img {
+    padding: 5% 5% 5% 5%;
+}
+
+.column1 {
+    height: 500px;
+    width: 25%;
+    background-color: mediumpurple;
+    font-size: 16px;
+    float: left;
+    
+    
+    
+    
+}
+
+.column1:hover {
+   
+    /*zoom: 110%;*/
+    background-color: blueviolet;
+    transform: scale(1.1, 1.1);
+}
+
+
+
+
+.column2 {
+    background-color: pink;
+    height: 500px;
+    width: 25%;
+    float: left;
+    
+    
+    
+   
+}
+
+
+    .column2:hover {
+        /*zoom: 110%;*/
+        background-color: hotpink;
+        transform: scale(1.1, 1.1);
+
+    }
+
+.column3 {
+    background-color: mediumpurple;
+    height: 500px;
+    width: 25%;
+    float: left;
+    
+    
+    
+    
+    
+}
+
+
+    .column3:hover {
+        /*zoom: 110%;*/
+        background-color: darkviolet;
+        transform: scale(1.1, 1.1);
+    }
+
+.column4 {
+    background-color: pink;
+    height: 500px;
+    width: 25%;
+    float: right;
+    
+}
+
+    .column4:hover {
+        /*zoom: 110%;*/
+        background-color: hotpink;
+        transform: scale(1.1, 1.1);
+    }
