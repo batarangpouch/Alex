@@ -39,11 +39,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </header>
 
 <!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-	    
-       <div class="w3-row">
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-row">
     <div class="w3-third">
       <img src="pictures/AlexBear.JPG" style="width:100%" onclick="onClick(this)" alt="A beautiful woman holding a beautiful boy.">
       <img src="pictures/Bathtub.jpg" style="width:100%" onclick="onClick(this)" alt="Can I crawl in?">
@@ -60,6 +62,27 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <img src="pictures/BirthdayGirl.jpg" style="width:100%" onclick="onClick(this)" alt="How cute...">
       <img src="pictures/Boquet.JPG" style="width:100%" onclick="onClick(this)" alt="Take it as a hint...">
       <img src="pictures/BabyAlex.PNG" style="width:100%" onclick="onClick(this)" alt="I hope so, too.">
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
     </div>
   </div>
      
@@ -83,7 +106,52 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
-<p><a href="https://www.instagram.com/alexhopkinz/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a></p>
+<p><a href="https://www.instag<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="pictures/AlexBear.JPG" style="width:100%" onclick="onClick(this)" alt="A beautiful woman holding a beautiful boy.">
+      <img src="pictures/Bathtub.jpg" style="width:100%" onclick="onClick(this)" alt="Can I crawl in?">
+      <img src="pictures/AlexJack.JPG" style="width:100%" onclick="onClick(this)" alt="Rip">
+    </div>
+
+    <div class="w3-third">
+      <img src="pictures/AlexRub.jpg" style="width:100%" onclick="onClick(this)" alt="Lower...">
+      <img src="pictures/FaceOff.JPG" style="width:100%" onclick="onClick(this)" alt="I could look all day...">
+      <img src="pictures/DrewRub.jpg" style="width:100%" onclick="onClick(this)" alt="Drew...">
+    </div>
+    
+    <div class="w3-third">
+      <img src="pictures/BirthdayGirl.jpg" style="width:100%" onclick="onClick(this)" alt="How cute...">
+      <img src="pictures/Boquet.JPG" style="width:100%" onclick="onClick(this)" alt="Take it as a hint...">
+      <img src="pictures/BabyAlex.PNG" style="width:100%" onclick="onClick(this)" alt="I hope so, too.">
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>ram.com/alexhopkinz/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a></p>
  </div>
 </footer>
 
